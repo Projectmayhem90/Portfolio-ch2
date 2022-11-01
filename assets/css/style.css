@@ -121,7 +121,7 @@ main {
 
 .hero-banner-2 {
   background: rgb(7, 7, 7);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/Header-Do-SMTHG-GRT.jpg") linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: hard-light;
@@ -155,10 +155,6 @@ main {
   line-height: 2.7;
   text-align: left;
   margin: 0;
-}
-
-.hero-banner-image {
-
 }
 
 .page-wrapper {
