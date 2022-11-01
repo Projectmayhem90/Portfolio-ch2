@@ -5,7 +5,7 @@
 /* brand color palette */
 :root {
   --primary: rgb(18, 20, 23);
-  --secondary: rgb(168, 181, 121);
+  --secondary: pink;
   --tertiary: rgba(49, 52, 61, 1);
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
 }
 
-h1,
+h1 
 h2,
 h3,
 h4,
@@ -33,6 +33,22 @@ p {
   margin: 0;
 }
 
+p.indent {
+  text-indent: 40px;
+}
+
+p1 {
+  text-align: center;
+  padding-top: 100%;
+}
+
+h1 {
+  color: blue;
+  text-transform: uppercase;
+  text-shadow: orange;
+  text-rendering: var(--light);
+}
+
 header {
   padding: 15px 6% 15px 0;
   display: flex;
@@ -40,7 +56,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: right;
-  background-color: var(--tertiary);
+  background-color: var(--white);
   box-shadow: 0 5px 35px rgba(14, 19, 19, 0.4);
 }
 
@@ -54,7 +70,7 @@ nav a {
   text-decoration: none;
   text-align: center;
   padding: 5px 10px;
-  color: var(--secondary);
+  color: blue;
   margin-right: 10px;
   background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
@@ -66,7 +82,7 @@ nav a {
 
 nav a:hover {
   background-size: 100% 100%;
-  color: var(--primary);
+  color: yellow;
 }
 
 nav a:last-child {
@@ -85,7 +101,7 @@ main {
   background-position: center;
   background-blend-mode: hard-light;
   min-height: 30vh;
-  color: var(--light);
+  color: blue;
   padding: 7% 7%;
   display: flex;
   justify-content: flex-end;
@@ -111,13 +127,15 @@ main {
 }
 
 .hero-banner h2 {
-  background-color: var(--secondary);
-  color: var(--tertiary);
+  color: rgb(23, 45, 124);
+  print-color-adjust: white;
   margin: 0;
   padding: 5px 10px;
-  font-size: 2.3rem;
+  font-size: 2.0 rem;
   line-height: 1.2;
-  display: inline;
+  display: inline-flex;
+  align-items: left;
+
 }
 
 .hero-banner-2 h3 {
@@ -127,6 +145,10 @@ main {
   line-height: 2.7;
   text-align: left;
   margin: 0;
+}
+
+.hero-banner-image {
+
 }
 
 .page-wrapper {
@@ -201,6 +223,12 @@ main {
   padding: 8px 10px;
 }
 
+.flex-item div-2 {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+
+}
+
 .flex-item h3 {
   font-size: 1.6rem;
 }
@@ -234,24 +262,24 @@ main {
 }
 
 /* portfolio project images */
-.run-buddy {
+.cool-ideas {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-.led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
+.future-work {
+  background-image: url("../images/Whats\ next.jpg");
 }
 
-.react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
+.python-examples {
+  background-image: url("../images/PythonImage.jpg");
 }
 
-.pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
+.html-css-java {
+  background-image: url("../images/HTML-CSS-JAVA.png");
 }
 
-.surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+.recent-work {
+  background-image: url("../images/Horiseon\ Screenshot.png");
 }
 
 /* end portfolio project images */
