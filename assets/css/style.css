@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* brand color palette */
+/* Colors ((Pallet?)) */
 :root {
   --primary: rgb(18, 20, 23);
   --secondary: pink;
@@ -214,7 +214,7 @@ main {
   font-size: 0.9rem;
 }
 
-/* feature first portfolio item */
+/* Feature ITems (Child) */
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -267,28 +267,29 @@ main {
   color: var(--secondary);
 }
 
-/* portfolio project images */
+/* Images */
 .cool-ideas {
-  background-image: url("../images/.jpg");
+  background-image: url("../images/.jpg"); /*No image - For future use*/
 }
 
 .future-work {
-  background-image: url("../images/Whats\ next.jpg");
+  background-image: url("../images/Whats\ next.jpg"); /*Whats next sticky note*/
 }
 
 .python-examples {
-  background-image: url("../images/PythonImage.jpg");
+  background-image: url("../images/PythonImage.jpg"); /*Python picture*/
 }
 
 .html-css-java {
-  background-image: url("../images/HTML-CSS-JAVA.png");
+  background-image: url("../images/HTML-CSS-JAVA.png"); /*Images for HTML CSS JAVA*/
 }
 
 .recent-work {
-  background-image: url("../images/Horiseon\ Screenshot.png");
+  background-image: url("../images/Horiseon\ Screenshot.png"); /*Horison project picture*/
+
 }
 
-/* end portfolio project images */
+/* Media Screen Adjustment*/
 
 @media screen and (max-width: 980px) {
   header {
