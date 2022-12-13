@@ -1,6 +1,6 @@
-# Portfolio-ch2
-Portfolio challenge 
-# Portfolio Home Page Refractor 
+# Password Gen.
+Password Generator Challenge 
+# Password Generator Refracter  
 
 ![The Top of the Webpage](./assets/images/Portfolio-Screen-shot-Developer.png)
 
